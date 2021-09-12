@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>A* path finding algorithm</title>
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+  <script src="libraries/p5.min.js"></script>
+  <script src="libraries/p5.sound.min.js"></script>
+</head>
+
+<body>
+  <h1>A* algorithm</h1>
+  <div id="demo"></div>
+
+  <div class="add-wall">
+    <button id="add-wall-btn">Add Walls!</button>
+    <button id="clear-board">Clear Board!</button>
+  </div>
+  <div class="change-pos">
+    <p>Start point:</p>
+    <input type="range" min="0" max="14" data-max>
+    <input type="range" min="0" max="14" data-max>
+    <p>End point:</p>
+    <input type="range" min="0" max="14" data-max>
+    <input type="range" min="0" max="14" data-max>
+  </div>
+  <button id="visualize">Visualize A*!</button>
+
+
+  <!-- <script src="AstarPathFinding.js"></script> -->
+  <script src="./AstarPathFindingV02.js"></script>
+</body>
+
+</html>
